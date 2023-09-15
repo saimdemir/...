@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="app1.js">
+    <title>Sİnema Rezervasyon</title>
+
+
+
+    </head>
+
+
+    <body>
+ <div class="container"> 
+    <div class="screen"></div>
+    <div class="row"> 
+        <div class="seat"></div>
+        <div class="seat "></div>
+        <div class="seat "></div>
+        <div class="seat reserved "></div>
+        <div class="seat reserved"></div>
+        <div class="seat "></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+    </div>
+    <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+    </div>
+    <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+    </div>
+    <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+    </div>
+    <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+    </div>
+    <div class="movie-list">
+        <select id="movie" style="font-size: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                 color:crimson; background-color:black;">
+            <option disabled>Film seçiniz</option>
+            <option value="50">Marvel</option>
+            <option value="40">Oppenhiemer</option>
+            <option value="35">Barbie</option>
+        </select></div>
+        <ul class="info">
+            <li>
+                <div class="seat selected"></div>
+                <span><b>Seçili</b></span>
+            </li>
+        </ul>
+        <ul class="info">
+            <li>
+                <div class="seat"></div>
+                <span>boş</span>
+            </li>
+        </ul>
+        <ul class="info">
+            <li>
+                <div class="seat reserved"></div>
+                <span>dolu</span>
+            </li>
+        </ul>
+        <p class="text">
+            <span id="count">0</span> adet koltuk için hesaplanan ücret <span id="amount">0</span> TL
+        </p>
+ </div>
+
+<script src="app1.js"></script>
+    </body>
+</html>
